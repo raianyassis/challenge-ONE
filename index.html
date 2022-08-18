@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>ONE</title>
+</head>
+
+<body>
+    <img src="./assets/img/cadeado.png" alt="icone de cadeado roxo" class="logo">
+    <main class="container">
+        <div class="conteudo">
+            <textarea id="entrada" placeholder="Digite aqui o texto" cols="30" rows="10" class="entrada"></textarea>
+            <div class="conteudo-botoes">
+                <div class="aviso">
+                    <img src="./assets/img/alert.svg" alt="alert">
+                    <span>Apenas letras sem acento</span>
+                </div>
+                <div class="botoes">
+                    <input id="criptografar" type="button" value="Criptografar">
+                    <input id="descriptografar" type="button" value="Descriptografar">
+                </div>
+            </div>
+        </div>
+        <div class="saida">
+            <div class="saida-detalhes">
+                <img src="./assets/img/lupa.png" alt="Pessoa com lupa">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <textarea id="resultado" cols="30" rows="10"></textarea>
+            <input type="button" value="Copiar" class="copiar">
+        </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
